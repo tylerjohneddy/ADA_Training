@@ -1,0 +1,26 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U blackjack%b		blackjack.adb		81dfcd0e NE OO PK IL
+
+U blackjack%s		blackjack.ads		f0d20be9 EE NE OO PK IL
+
+D blackjack.ads		20200513100834 f0d20be9 blackjack%s
+D blackjack.adb		20200513100830 710dc6e7 blackjack%b
+D system.ads		20190518041258 32a08138 system%s
+G a e
+G c Z s b [game blackjack 3 13 none]
+X 1 blackjack.ads
+1K9*blackjack 5l5 5e14 2|1b14 12l5 12t14
+3V13*game{integer} 3>18 3>20 2|3b16 10l8 10t12
+3i18 a{integer} 2|3b22 5r10
+3i20 b{integer} 2|3b24 5r20
+
