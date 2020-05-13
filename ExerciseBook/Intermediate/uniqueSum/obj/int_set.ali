@@ -1,0 +1,259 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U int_set%b		int_set.adb		778334cb NE OO PK IL
+
+U int_set%s		int_set.ads		0ab550e3 EE OO PF PK IL
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.hash_tables%s  a-cohata.ads	a-cohata.ali
+Z ada.containers.hash_tables.generic_keys%s
+Z ada.containers.hash_tables.generic_operations%s
+W ada.containers.hashed_sets%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+Z ada.containers.prime_numbers%s  a-coprnu.adb	a-coprnu.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-contai.ads		20190518041256 61e5e089 ada.containers%s
+D a-cohata.ads		20190518041258 80a8c839 ada.containers.hash_tables%s
+D a-chtgke.ads		20190518041258 20177f7b ada.containers.hash_tables.generic_keys%s
+D a-chtgke.adb		20190518041256 7d66b1e3 ada.containers.hash_tables.generic_keys%b
+D a-chtgop.ads		20190518041256 11c5978a ada.containers.hash_tables.generic_operations%s
+D a-chtgop.adb		20190518041256 c3ccdc4f ada.containers.hash_tables.generic_operations%b
+D a-cohase.ads		20190518041256 5cc78687 ada.containers.hashed_sets%s
+D a-cohase.adb		20190518041258 00d6265f ada.containers.hashed_sets%b
+D a-conhel.ads		20190518041256 20298884 ada.containers.helpers%s
+D a-conhel.adb		20190518041258 9cc5095b ada.containers.helpers%b
+D a-coprnu.ads		20190518041256 0cdf1864 ada.containers.prime_numbers%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041256 bf4f806b ada.finalization%s
+D a-iteint.ads		20190518041256 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20190518041256 eff36322 ada.unchecked_deallocation%s
+D int_set.ads		20200513132040 379736ed int_set%s
+D int_set.adb		20200513132114 40140226 int_set%b
+D system.ads		20190518041258 32a08138 system%s
+D s-atocou.ads		20190518041258 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20190518041256 b65612c0 system.atomic_counters%b
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-finmas.ads		20190518041256 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041258 4ff27390 system.finalization_root%s
+D s-memory.ads		20190518041256 597d6634 system.memory%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-pooglo.ads		20190518041256 ede33ef8 system.pool_global%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stalib.adb		20190518041256 f2fe2716 system.standard_library%b
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20190518041256 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20190518041256 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190518041256 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190518041256 aedef97e system.stream_attributes%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+G a e
+G c Z s b [hash int_set 7 13 none]
+G c Z s s [has_element int_set__intset 75 13 8_4]
+G c Z s s [Oeq int_set__intset 81 13 8_4]
+G c Z s s [equivalent_sets int_set__intset 94 13 8_4]
+G c Z s s [to_set int_set__intset 99 13 8_4]
+G c Z s s [capacity int_set__intset 103 13 8_4]
+G c Z s s [reserve_capacity int_set__intset 107 14 8_4]
+G c Z s s [length int_set__intset 118 13 8_4]
+G c Z s s [is_empty int_set__intset 121 13 8_4]
+G c Z s s [clear int_set__intset 124 14 8_4]
+G c Z s s [element int_set__intset 127 13 8_4]
+G c Z s s [replace_element int_set__intset 130 14 8_4]
+G c Z s s [query_element int_set__intset 145 14 8_4]
+G c Z s s [constant_reference int_set__intset 155 13 8_4]
+G c Z s s [assign int_set__intset 160 14 8_4]
+G c Z s s [copy int_set__intset 162 13 8_4]
+G c Z s s [move int_set__intset 164 14 8_4]
+G c Z s s [insert int_set__intset 168 14 8_4]
+G c Z s s [insert int_set__intset 186 14 8_4]
+G c Z s s [include int_set__intset 195 14 8_4]
+G c Z s s [replace int_set__intset 204 14 8_4]
+G c Z s s [exclude int_set__intset 212 14 8_4]
+G c Z s s [delete int_set__intset 221 14 8_4]
+G c Z s s [delete int_set__intset 229 14 8_4]
+G c Z s s [union int_set__intset 235 14 8_4]
+G c Z s s [union int_set__intset 240 13 8_4]
+G c Z s s [intersection int_set__intset 246 14 8_4]
+G c Z s s [intersection int_set__intset 251 13 8_4]
+G c Z s s [difference int_set__intset 258 14 8_4]
+G c Z s s [difference int_set__intset 263 13 8_4]
+G c Z s s [symmetric_difference int_set__intset 270 14 8_4]
+G c Z s s [symmetric_difference int_set__intset 277 13 8_4]
+G c Z s s [overlap int_set__intset 288 13 8_4]
+G c Z s s [is_subset int_set__intset 295 13 8_4]
+G c Z s s [first int_set__intset 303 13 8_4]
+G c Z s s [next int_set__intset 307 13 8_4]
+G c Z s s [next int_set__intset 315 14 8_4]
+G c Z s s [find int_set__intset 318 13 8_4]
+G c Z s s [contains int_set__intset 327 13 8_4]
+G c Z s s [equivalent_elements int_set__intset 330 13 8_4]
+G c Z s s [equivalent_elements int_set__intset 334 13 8_4]
+G c Z s s [equivalent_elements int_set__intset 340 13 8_4]
+G c Z s s [iterate int_set__intset 346 14 8_4]
+G c Z s s [iterate int_set__intset 351 13 8_4]
+G c Z s s [node_typeIP int_set__intset 493 9 8_4]
+G c Z s s [adjust int_set__intset__ht_types__implementation 90 28 58_7_498_4_8_4]
+G c Z s s [finalize int_set__intset__ht_types__implementation 93 28 58_7_498_4_8_4]
+G c Z s s [zero_counts int_set__intset__ht_types__implementation 96 17 58_7_498_4_8_4]
+G c Z s s [busy int_set__intset__ht_types__implementation 100 17 58_7_498_4_8_4]
+G c Z s s [unbusy int_set__intset__ht_types__implementation 104 17 58_7_498_4_8_4]
+G c Z s s [lock int_set__intset__ht_types__implementation 108 17 58_7_498_4_8_4]
+G c Z s s [unlock int_set__intset__ht_types__implementation 112 17 58_7_498_4_8_4]
+G c Z s s [tc_check int_set__intset__ht_types__implementation 116 17 58_7_498_4_8_4]
+G c Z s s [te_check int_set__intset__ht_types__implementation 120 17 58_7_498_4_8_4]
+G c Z s s [initialize int_set__intset__ht_types__implementation 139 28 58_7_498_4_8_4]
+G c Z s s [finalize int_set__intset__ht_types__implementation 140 28 58_7_498_4_8_4]
+G c Z s s [initialize int_set__intset__ht_types__implementation 145 28 58_7_498_4_8_4]
+G c Z s s [finalize int_set__intset__ht_types__implementation 146 28 58_7_498_4_8_4]
+G c Z s s [reference_control_typeDA int_set__intset__ht_types__implementation 84 12 58_7_498_4_8_4]
+G c Z s s [reference_control_typeDF int_set__intset__ht_types__implementation 84 12 58_7_498_4_8_4]
+G c Z s s [reference_control_typeIP int_set__intset__ht_types__implementation 84 12 58_7_498_4_8_4]
+G c Z s s [with_busyDF int_set__intset__ht_types__implementation 136 12 58_7_498_4_8_4]
+G c Z s s [with_busyIP int_set__intset__ht_types__implementation 136 12 58_7_498_4_8_4]
+G c Z s s [with_lockDF int_set__intset__ht_types__implementation 142 12 58_7_498_4_8_4]
+G c Z s s [with_lockIP int_set__intset__ht_types__implementation 142 12 58_7_498_4_8_4]
+G c Z s s [buckets_typeIP int_set__intset__ht_types 46 12 498_4_8_4]
+G c Z s s [hash_table_typeDA int_set__intset__ht_types 52 12 498_4_8_4]
+G c Z s s [hash_table_typeDF int_set__intset__ht_types 52 12 498_4_8_4]
+G c Z s s [hash_table_typeIP int_set__intset__ht_types 52 12 498_4_8_4]
+G c Z s s [adjust int_set__intset 505 25 8_4]
+G c Z s s [finalize int_set__intset 507 25 8_4]
+G c Z s s [write int_set__intset 513 14 8_4]
+G c Z s s [read int_set__intset 519 14 8_4]
+G c Z s s [write int_set__intset 534 14 8_4]
+G c Z s s [read int_set__intset 540 14 8_4]
+G c Z s s [read int_set__intset 559 14 8_4]
+G c Z s s [write int_set__intset 565 14 8_4]
+G c Z s s [pseudo_reference int_set__intset 576 13 8_4]
+G c Z s s [get_element_access int_set__intset 586 13 8_4]
+G c Z s s [setDA int_set__intset 501 9 8_4]
+G c Z s s [setDF int_set__intset 501 9 8_4]
+G c Z s s [setIP int_set__intset 501 9 8_4]
+G c Z s s [cursorIP int_set__intset 528 9 8_4]
+G c Z s s [constant_reference_typeDI int_set__intset 549 9 8_4]
+G c Z s s [constant_reference_typeDA int_set__intset 549 9 8_4]
+G c Z s s [constant_reference_typeDF int_set__intset 549 9 8_4]
+G c Z s s [constant_reference_typeIP int_set__intset 549 9 8_4]
+G c Z s s [first int_set__intset 602 24 8_4]
+G c Z s s [next int_set__intset 604 24 8_4]
+G c Z s s [finalize int_set__intset 607 25 8_4]
+G c Z s s [iteratorDF int_set__intset 595 9 8_4]
+G c Z s s [iteratorIP int_set__intset 595 9 8_4]
+G c Z s s [assign int_set__intset 54 14 8_4]
+G c Z s s [copy_node int_set__intset 57 13 8_4]
+G c Z s s [equivalent_keys int_set__intset 60 13 8_4]
+G c Z s s [find_equal_key int_set__intset 65 13 8_4]
+G c Z s s [find_equivalent_key int_set__intset 69 13 8_4]
+G c Z s s [free int_set__intset 73 14 8_4]
+G c Z s s [hash_node int_set__intset 75 13 8_4]
+G c Z s s [insert int_set__intset 78 14 8_4]
+G c Z s s [is_in int_set__intset 84 13 8_4]
+G c Z s s [next int_set__intset 89 13 8_4]
+G c Z s s [read_node int_set__intset 92 13 8_4]
+G c Z s s [set_next int_set__intset 96 14 8_4]
+G c Z s s [vet int_set__intset 99 13 8_4]
+G c Z s s [write_node int_set__intset 101 14 8_4]
+G c Z s s [free_hash_table int_set__intset__ht_ops 57 14 110_4_8_4]
+G c Z s s [index int_set__intset__ht_ops 61 13 110_4_8_4]
+G c Z s s [index int_set__intset__ht_ops 67 13 110_4_8_4]
+G c Z s s [checked_index int_set__intset__ht_ops 74 13 110_4_8_4]
+G c Z s s [checked_index int_set__intset__ht_ops 81 13 110_4_8_4]
+G c Z s s [adjust int_set__intset__ht_ops 86 14 110_4_8_4]
+G c Z s s [finalize int_set__intset__ht_ops 92 14 110_4_8_4]
+G c Z s s [clear int_set__intset__ht_ops 108 14 110_4_8_4]
+G c Z s s [move int_set__intset__ht_ops 113 14 110_4_8_4]
+G c Z s s [capacity int_set__intset__ht_ops 119 13 110_4_8_4]
+G c Z s s [reserve_capacity int_set__intset__ht_ops 122 14 110_4_8_4]
+G c Z s s [delete_node_at_index int_set__intset__ht_ops 131 14 110_4_8_4]
+G c Z s s [delete_node_sans_free int_set__intset__ht_ops 140 14 110_4_8_4]
+G c Z s s [first int_set__intset__ht_ops 145 13 110_4_8_4]
+G c Z s s [first int_set__intset__ht_ops 147 13 110_4_8_4]
+G c Z s s [next int_set__intset__ht_ops 154 13 110_4_8_4]
+G c Z s s [next int_set__intset__ht_ops 157 13 110_4_8_4]
+G c Z s s [new_buckets int_set__intset__ht_ops 204 13 110_4_8_4]
+G c Z s s [free_buckets int_set__intset__ht_ops 208 14 110_4_8_4]
+G c Z s s [index int_set__intset__element_keys 56 13 118_4_8_4]
+G c Z s s [checked_index int_set__intset__element_keys 62 13 118_4_8_4]
+G c Z s s [checked_equivalent_keys int_set__intset__element_keys 69 13 118_4_8_4]
+G c Z s s [delete_key_sans_free int_set__intset__element_keys 76 14 118_4_8_4]
+G c Z s s [find int_set__intset__element_keys 84 13 118_4_8_4]
+G c Z s s [is_equalR int_set__intset__is_equalGP4976 126 13 8_4]
+G c Z s s [is_equal int_set__intset 126 13 8_4]
+G c Z s s [is_equivalentR int_set__intset__is_equivalentGP5050 129 13 8_4]
+G c Z s s [is_equivalent int_set__intset 129 13 8_4]
+G c Z s s [read_nodesR int_set__intset__read_nodesGP5135 132 14 8_4]
+G c Z s s [read_nodes int_set__intset 132 14 8_4]
+G c Z s s [replace_elementR int_set__intset__replace_elementGP5206 135 14 8_4]
+G c Z s s [replace_element int_set__intset 135 14 8_4]
+G c Z s s [write_nodesR int_set__intset__write_nodesGP5307 138 14 8_4]
+G c Z s s [write_nodes int_set__intset 138 14 8_4]
+G c Z s b [addtointset int_set 9 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 20|1r6 2r6 2r26 8r26
+X 2 a-contai.ads
+16K13*Containers 24e19 20|1r10 2w10 2r30 8r30
+19M9*Hash_Type 20|7r41 21|3r41 5r14
+X 8 a-cohase.ads
+42+9 Element_Type 20|8r53
+44V18 Hash{2|19M9} 20|8r79
+46V18 Equivalent_Elements{boolean} 20|8r94
+49V19 "="{boolean} 20|8r124
+51k24*Hashed_Sets 609e31 20|1w21 8r41
+56R9*Set<14|43R9> 20|9r45[8] 21|8r45[20|8]
+186U14*Insert 21|12s9[20|8]
+X 10 a-conhel.ads
+84R12 Reference_Control_Type<14|43R9>
+X 15 a-iteint.ads
+24h9 Forward_Iterator
+X 20 int_set.ads
+5K9*int_set 11l5 11e12 21|1b14 20l5 20t12
+7V13*Hash{2|19M9} 7>18 8r88 21|3b13 6t7
+7i18 Key{positive} 21|3b18 5r24
+8K12*IntSet[8|51] 9r38 21|8r38
+9U14*addToIntSet 9=27 9>50 21|8b14 18l8 18t19
+9r27 s{8|56R9[8]} 21|8b27 12m7 12r7
+9i50 int{integer} 21|8b50 12r16
+X 22 system.ads
+67M9*Address
+X 28 s-memory.ads
+53V13*Alloc{22|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{22|67M9} 105i<c,__gnat_realloc>22
+X 35 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
