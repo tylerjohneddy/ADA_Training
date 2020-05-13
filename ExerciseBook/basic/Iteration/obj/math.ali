@@ -1,0 +1,26 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U math%b		math.adb		5e77db77 NE OO PK IL
+
+U math%s		math.ads		91e146c7 EE NE OO PK IL
+
+D math.ads		20200513090054 91e146c7 math%s
+D math.adb		20200513090846 cf969db0 math%b
+D system.ads		20190518041258 32a08138 system%s
+G a e
+G c Z s b [additionormultiplication math 3 13 none]
+X 1 math.ads
+1K9*math 5l5 5e9 2|1b14 28l8 28t12
+3V13*additionOrMultiplication{integer} 3>39 3>42 3>55 2|3b13 26l11 26t35
+3i39 a{integer} 2|3b39 7r10 13r17 18r20 20r20
+3i42 b{integer} 2|3b41 9r17 11r13 18r24 20r24
+3b55 c{boolean} 2|3b54 17r13
+
