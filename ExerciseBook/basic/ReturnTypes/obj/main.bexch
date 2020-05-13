@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Tyler\Desktop\Ada-training\ExerciseBook\basic\ReturnTypes\default.gpr
+20200513082914
+[BOUND OBJECT FILES]
+C:\Users\Tyler\Desktop\Ada-training\ExerciseBook\basic\ReturnTypes\obj\hello.o
+C:\Users\Tyler\Desktop\Ada-training\ExerciseBook\basic\ReturnTypes\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Tyler\Desktop\Ada-training\ExerciseBook\basic\ReturnTypes\obj\
+-LC:\Users\Tyler\Desktop\Ada-training\ExerciseBook\basic\ReturnTypes\obj\
+-LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
